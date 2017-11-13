@@ -1,0 +1,24 @@
+{
+  "name": "pattern-lab/composer-plugin",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "Dave Olsen"
+    },
+    {
+      "name": "Aleksi Peebles"
+    }
+  ],
+  "require": {
+    "composer-plugin-api": "^1.1",
+    "pattern-lab/core": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PatternLab\\": "src/PatternLab"
+    }
+  },
+  "extra": {
+    "class": "PatternLab\\Composer\\ComposerPlugin"
+  }
+}
