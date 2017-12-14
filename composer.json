@@ -11,7 +11,7 @@
   ],
   "require": {
     "composer-plugin-api": "^1.1",
-    "pattern-lab/core": "^2.0.0"
+    "pattern-lab/core": "*"
   },
   "autoload": {
     "psr-4": {
